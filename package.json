@@ -1,0 +1,22 @@
+{
+  "name": "rn-css-transform",
+  "version": "1.0.0",
+  "description": "react native css transform utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngusFu/rn-css-transform.git"
+  },
+  "author": "angusfu1126@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngusFu/rn-css-transform/issues"
+  },
+  "homepage": "https://github.com/AngusFu/rn-css-transform#readme",
+  "dependencies": {
+    "lodash": "^4.11.2"
+  }
+}
