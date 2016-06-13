@@ -1,1 +1,1 @@
-module.exports = require('./css2js');
+module.exports = require('./lib/css2js');
