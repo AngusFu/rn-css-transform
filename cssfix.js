@@ -5,6 +5,12 @@ module.exports = function (key, val) {
     var obj = {};
 
     val = val.replace(/\'/g, '');
+    
+    // fix `background` to `backgroundColor`
+    if (key === 'background') {
+        obj[key + 'Color'] = val;
+        return obj;
+    }
 
     // fix val width unit -- `px`
     if (!/^backgroundSize|margin|padding$/i.test(key)) {
